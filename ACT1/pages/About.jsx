@@ -1,4 +1,4 @@
-const About = () => {
+function About() {
   return (
     <>
       <div className="about-box">
@@ -15,3 +15,5 @@ const About = () => {
 };
 
 export default About;
+
+//ANIDAMIENTO Y USO DINAMICO DE RUTAS

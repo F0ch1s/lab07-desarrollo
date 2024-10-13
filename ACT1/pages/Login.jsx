@@ -1,4 +1,4 @@
-const Login = () => {
+function Login (){
   return (
     <>
       <div class="login-box">

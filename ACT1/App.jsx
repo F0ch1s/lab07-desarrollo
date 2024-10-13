@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter } from "react-router-dom"; //componentes clave 
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -8,9 +8,11 @@ import Login from "./pages/Login";
 import ProductDetail from "./pages/ProductDetail";
 import "./App.css";
 
-const App = () => {
+export default function App(){
+
   return (
-    <Router>
+    <BrowserRouter> //BrowserRouter gestiona navegacion en base a URL
+      //Sin eso no se puede usar las rutas 
       <nav>
         <ul>
           <li>
@@ -31,16 +33,15 @@ const App = () => {
         </ul>
       </nav>
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+      <Routes> //contiene todas las rutas de la aplicacion 
+        <Route path="/" element={<Home />} /> //ruta razi
+        <Route path="/about" element={<About />} /> //cuando el usuario navegue a about
         <Route path="/contact" element={<Contact />} />
         <Route path="/products" element={<Products />} />
         <Route path="/login" element={<Login />} />{" "}
         <Route path="/products/:productId" element={<ProductDetail />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 };
 
-export default App;

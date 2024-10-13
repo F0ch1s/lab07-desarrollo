@@ -1,7 +1,8 @@
 import { useParams } from "react-router-dom";
 
-const ProductDetail = () => {
-  const { productId } = useParams(); // Desde la URL obtengo la ID
+function ProductDetail(){
+
+  const { productId } = useParams(); // hook para acceder a la url
 
   //productID = 1
   return (

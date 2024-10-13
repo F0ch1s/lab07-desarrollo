@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom"; //navegacion interna sin actualizar
+import {Outlet, Link } from "react-router-dom"; //navegacion interna sin actualizar
 
-const Products = () => {
+function Product (){
+
   //componente funcional
   const product = { id: 1, name: "Sofa" }; //objetoo
 
