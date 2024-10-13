@@ -1,0 +1,179 @@
+/* Asegurar que el body no tenga márgenes ni padding */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Barra de navegación fija */
+nav {
+  background-color: #35a;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container {
+  padding-top: 60px; /* Ajustar según el alto del nav */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin: 0 15px;
+  font-size: larger;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #333;
+  margin: 0;
+  padding: 20px 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #555;
+  text-decoration: none;
+}
+
+.products-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.products-list li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.products-list li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.products-list li a:hover {
+  color: #007bff;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.login-box {
+  background-color: #ffe;
+  margin: auto;
+  padding: 30px;
+  position: fixed;
+  width: 30%;
+  height: 30%;
+  left: 500px;
+  top: 100px;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+input {
+  background-color: #ccc;
+  color: black;
+}
+
+label {
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  margin: auto;
+  position: fixed;
+  top: 300px;
+  left: 700px;
+  background-color: transparent;
+}
+
+.home-box {
+  background-color: #ffe;
+  position: fixed;
+  left: 500px;
+  top: 100px;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+img {
+  width: 400px;
+  padding: 0;
+}
+
+.about-box {
+  background-color: #ffe;
+  position: fixed;
+  left: 500px;
+  top: 100px;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+.contact-box {
+  background-color: #ffe;
+  position: fixed;
+  left: 600px;
+  top: 100px;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+.product-box {
+  background-color: #ffe;
+  position: fixed;
+  left: 250px;
+  top: 100px;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 15px;
+  width: 60%;
+  height: 65%;
+}
