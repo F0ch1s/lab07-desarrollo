@@ -1,0 +1,38 @@
+p {
+  text-align: center;
+}
+
+nav{
+  padding: 5px;
+  margin: 3px;
+}
+
+nav li{
+  padding: 5px;
+  margin: 23px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Header {
+  background-color: #244ea1;
+  min-height: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.Header ul{
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+}
+
+.Header ul{
+  margin: 20px;
+  padding: 10px;
+  background-color: cadetblue;
+}
