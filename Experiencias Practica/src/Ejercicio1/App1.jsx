@@ -14,8 +14,7 @@ const App1 = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   const login = (username, password) => {
-    // Ejemplo simple de autenticación
-    if (username === 'admin' && password === '1234') {
+    if (username === 'user' && password === '8765') {
       setUser({ username });
       setIsAuthenticated(true);
     } else {

@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Estilo general del cuerpo */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -12,7 +11,6 @@ body {
     line-height: 1.6;
 }
 
-/* Estilo para el contenedor principal */
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -22,26 +20,24 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo para la navegación */
 .Header {
-    background: #4CAF50; /* Color de fondo */
+    background: #4CAF50;
     padding: 10px;
     display: flex;
     justify-content: space-around;
 }
 
 .Header a {
-    color: #fff; /* Color del texto */
+    color: #fff;
     text-decoration: none;
     padding: 10px 15px;
 }
 
 .Header a:hover {
-    background: #45a049; /* Color de fondo al pasar el mouse */
+    background: #45a049;
     border-radius: 4px;
 }
 
-/* Estilo para el formulario de inicio de sesión */
 form {
     display: flex;
     flex-direction: column;
@@ -71,7 +67,6 @@ form button:hover {
     background: #45a049;
 }
 
-/* Estilo para la sección de tienda */
 .Catalogo h2 {
     margin-bottom: 10px;
 }
@@ -92,14 +87,12 @@ form button:hover {
     border-radius: 4px;
 }
 
-/* Estilo para mensajes de error */
 .error {
     color: red;
     font-weight: bold;
     margin-top: 10px;
 }
 
-/* Estilo para la página de error */
 .PageNotFound {
     text-align: center;
 }
@@ -123,33 +116,33 @@ form button:hover {
 }
 
 .HomePage {
-    text-align: center; /* Centra el texto */
+    text-align: center;
     margin-top: 20px;
     background-color: #bfde8c;
 }
 
 .HomePage h1 {
-    font-size: 2.5em; /* Tamaño del encabezado principal */
-    color: #1c44d4; /* Color verde */
-    margin-bottom: 10px; /* Espaciado inferior */
+    font-size: 2.5em;
+    color: #1c44d4;
+    margin-bottom: 10px;
 }
 
 .HomePage h3 {
-    font-size: 1.5em; /* Tamaño del subtítulo */
-    color: #555; /* Color gris para subtítulos */
-    margin-bottom: 20px; /* Espaciado inferior */
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 20px;
 }
 
 .HomePage p {
-    margin: 10px 0; /* Espaciado vertical entre párrafos */
-    line-height: 1.6; /* Espaciado de línea para mayor legibilidad */
+    margin: 10px 0;
+    line-height: 1.6;
 }
 
 .HomePage img {
-    max-width: 100%; /* Imagen se adapta al tamaño del contenedor */
-    height: auto; /* Mantiene la relación de aspecto */
-    border-radius: 8px; /* Bordes redondeados para la imagen */
-    margin-top: 20px; /* Espaciado superior */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
 }
 
 .HomePage .Footer{

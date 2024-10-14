@@ -1,14 +1,15 @@
 import React, { useState, useContext } from 'react';
-import { LoginContext } from './App1'; // Importar el contexto
+import { LoginContext } from './App1';
 
 export const LogInPage = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const { login } = useContext(LoginContext); // Extraer la función login del contexto
+    const { login } = useContext(LoginContext);
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        login(username, password); // Llamar a la función login del contexto
+        login(username, password);
+        // Se llama a la función login del contexto
     };
 
     return (
